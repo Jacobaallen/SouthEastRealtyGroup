@@ -8,8 +8,14 @@ class App extends React.Component{
       <Router>
         <div>
           <Header/>
+          <Route exact path="/" component={Home} />
+  				 <Route path="/about" component={About} />
+           <Route path="/listings"component={Listings} />
+           <Route path="/contact" component={Contact} />
         </div>
       </Router>
     )
   }
 }
+
+export default App;
