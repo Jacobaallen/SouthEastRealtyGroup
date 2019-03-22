@@ -1,4 +1,2 @@
 import React, { Component } from 'react';
-
-
-export default Contact;
+export default Home;
