@@ -1,6 +1,10 @@
 import React form 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Header';
+import Home from './Home';
+import About from './About' ;
+import Contact from './Contact' ;
+import Listings from './Listings' ;
 
 class App extends React.Component{
   render () {
@@ -10,8 +14,8 @@ class App extends React.Component{
           <Header/>
           <Route exact path="/" component={Home} />
   				 <Route path="/about" component={About} />
-           <Route path="/listings"component={Listings} />
            <Route path="/contact" component={Contact} />
+           <Route path="/listings"component={Listings} />
         </div>
       </Router>
     )
