@@ -4,11 +4,9 @@ class Header extends Component {
   render () {
     return (
       <div className="navbar">
-        <div className="Logo">
-          <a href="/"><img src=""Southeast-real-estate-logo.png" title="sereg logo" /></a>
-        </div>
         <div className="links">
           <ul>
+            <img className="img-responsive" src{"../../public/assets/image/img/Southeast-real-estate-logo.png" alt="logo"}/>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/listings">Listings</Link>
@@ -16,6 +14,7 @@ class Header extends Component {
           </ul>
         </div>
       </div>
+    </div>
     )
   }
 }

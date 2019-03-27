@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Home extends component {
+class Home extends Component {
   render () {
     return (
       <div className="master">
