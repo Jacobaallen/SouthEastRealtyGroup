@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Header extends Component {
   render () {
-    render (
+    return (
       <div className="navbar">
         <div className="Logo">
           <a href="/"><img src=""Southeast-real-estate-logo.png" title="sereg logo" /></a>
