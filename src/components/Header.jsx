@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-
-
-console.log(logo);
+import {Link} from 'react-router-dom';
+import '../styles/header.css';
 
 class Header extends Component {
   render () {
@@ -9,9 +8,9 @@ class Header extends Component {
       <div className="navbar">
         <div className="links">
           <ul>
-            function logo() {
-              <img src{logo} alt="logo" />;
-            }
+
+            <img src="/assets/image/Southeast-real-estate-logo.png" alt="logo" />;
+
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/listings">Listings</Link>
@@ -19,7 +18,6 @@ class Header extends Component {
           </ul>
         </div>
       </div>
-    </div>
     )
   }
 }
