@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="links">
           <ul>
 
-            <img src="/assets/image/Southeast-real-estate-logo.png" alt="logo" />;
+            <img src="/assets/image/Southeast-real-estate.png" alt="logo" />;
 
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
