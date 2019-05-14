@@ -6,11 +6,8 @@ class Home extends Component {
     return (
       <div className="master">
         <div className="hero-image">
-          <div className="hero-text">
-            <p>At South East Realty Group we strive for excellence.</p>
-            <p>-Steve Allen</p>
+            <img src="/assets/image/Hero-image-1.png" alt="hero" width="1500" height="auto"></img>
           </div>
-        </div>
       <div className="title">
         <p> Southeast Realty Group Inc.</p>
       </div>
