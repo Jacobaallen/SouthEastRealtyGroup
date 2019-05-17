@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../styles/header.css';
+import ReactPageScroller from "react-page-scroller";
 
 class Header extends Component {
   render () {
     return (
+      goToPage = (pageNumber) => {
+  this.reactPageScroller.goToPage(pageNumber);
+}
+<ReactPageScroller ref={c => this.ReactPageScroller = c}>
+        <home/>
+        <about/>
+        <listings/>
+        <contact/>
+      </ReactPageScroller>
+
       <div className="navbar">
         <div className="links">
           <ul>
