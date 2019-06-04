@@ -6,7 +6,6 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Listings from './components/Listings';
 import Footer from './components/Footer';
-import ReactPageScroller from "react-page-scroller";
 
 
 class App extends React.Component{
