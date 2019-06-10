@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  padding: 0;
+  margin: 0;
+  height: 0;
+  width: 0;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #3492D3 ;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: #3492D3 ;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3492D3 ;
+  }
+}
