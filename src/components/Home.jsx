@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/home.css';
+import DemoCarousel from './Carousel'
+
 
 class Home extends Component {
   render () {
@@ -11,6 +13,9 @@ class Home extends Component {
       <div className="title">
         <p> Southeast Realty Group Inc.</p>
       </div>
+      <div className = "DemoCarousel">
+            <DemoCarousel/>
+          </div>
       <div className="whatWeDo">
         <p>Broker Price Opinion/ Consulting</p>
         <p>Commercial leasing</p>
