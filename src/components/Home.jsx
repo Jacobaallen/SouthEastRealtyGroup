@@ -22,7 +22,8 @@ class Home extends Component {
         <p>Sales of commercial Property</p>
         <p>Property Management</p>
         <p>Tenant representation and Site Selection</p>
-        <p>Commercial Development</p>
+        <p>Commercial Development in </p>
+        <p>Liecse Brooker in Floirda </p>
       </div>
       <div className="content">
       </div>
