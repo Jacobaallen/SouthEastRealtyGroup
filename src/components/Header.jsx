@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <a className="navbar-brand" href="#home">
-          <img src="./public/assets/image/Southeast-real-estate.png" height="30" alt="SERSG logo"/>
+          <img src="/image/logo4.png" height="30" alt="SERSG logo"/>
         </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -20,7 +20,10 @@ class Header extends Component {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/about">About</a>
+                    <a className="nav-link" href="#about">About</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#whatWeDo">What We Do</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/listing">Listings</a>

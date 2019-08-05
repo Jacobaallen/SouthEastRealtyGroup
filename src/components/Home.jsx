@@ -8,23 +8,26 @@ class Home extends Component {
     return (
       <div className="master">
         <div className="hero-image">
-            <img src="/assets/image/Hero-image-1.png" alt="hero" width="1500" height="auto"></img>
           </div>
-      <div className="title">
-        <p> Southeast Realty Group Inc.</p>
-      </div>
-      <div className = "DemoCarousel">
-            <DemoCarousel/>
+          <div className="whatWeDo" id="whatWeDo">
+            <div className = "DemoCarousel">
+              <DemoCarousel/>
+            </div>
           </div>
-      <div className="whatWeDo">
-        <p>Broker Price Opinion/ Consulting</p>
-        <p>Commercial leasing</p>
-        <p>Sales of commercial Property</p>
-        <p>Property Management</p>
-        <p>Tenant representation and Site Selection</p>
-        <p>Commercial Development in </p>
-        <p>Liecse Brooker in Floirda </p>
-      </div>
+
+          <div className="about" id="about">
+            <header className='aboutTitle'>
+              <h1>About South East Realty Group Inc.</h1>
+            </header>
+            <div className='aboutContent'>
+              <p className='aboutIntro'> South East Realty Group inc was esablish in 1986. From the Start the lead by current CEO Steve Allen. SERG main foces has be Commertional Real State. Teaming up with larger companys such as Rid-aid, Famaly Dollor and Dollor Genral.
+                Building them all across the South East of the Unided States of Amaeric. SERG operates in Floirda, Alabama, Gorga, Lowezean, North Carlono, and South Carolin. The Company Head Quders is locaed in Juno Beach, FL.</p>
+            </div>
+          </div>
+
+          <div className="teamup" id="Companyweworkwith">
+            
+          </div>
       <div className="content">
       </div>
       </div>
