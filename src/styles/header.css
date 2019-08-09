@@ -20,15 +20,15 @@ ody {
 }
 
 .top-nav-collapse {
-  background-color: #3492D3 ;
+  background-color: #63B1FF ;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: #3492D3 ;
+  background: #63B1FF ;
 }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #3492D3 ;
+    background: #63B1FF ;
   }
 }
