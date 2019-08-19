@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Carousel2 from './components/Carousel2';
 
 
 class App extends React.Component{
