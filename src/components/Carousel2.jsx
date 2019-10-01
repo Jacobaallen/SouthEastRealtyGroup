@@ -1,9 +1,11 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
 MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
+import "../styles/carousel2.css"
 
 const MultiCarouselPage = () => {
   return (
+    <div className='carousel1'>
     <MDBContainer>
       <MDBCarousel activeItem={1} length={3} slide={true} showControls={true} showIndicators={true} multiItem>
         <MDBCarouselInner>
@@ -135,6 +137,7 @@ const MultiCarouselPage = () => {
         </MDBCarouselInner>
       </MDBCarousel>
     </MDBContainer>
+    </div>
   );
 }
 
